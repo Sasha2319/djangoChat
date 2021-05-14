@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+{% block login %}
+{% endblock %}
+
+<h1>{{username}}</h1>
+<h1>Join chat</h1>
+<form method="post" style="margin-left:5px">
+    {% csrf_token %}
+    {{chatIdForm|crispy}}
+</form>
+
+<h1>Chats:</h1>
+
+<div class="list-group">
+    {% for chat in chats %}
+    <div class="mb-2" id="chat{{chat.id}}">
+        <a href="{{chat.id}}/" class="list-group-item list-group-item-action" aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">{{chat.name_of_chat}}</h5>
+        </div>
+        <p class="mb-1"></p>
+        <small>Id of this chat: {{chat.id}}</small>
+        <div id="htmlText" class="htmlText"></div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}

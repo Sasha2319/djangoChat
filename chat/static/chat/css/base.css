@@ -1,0 +1,66 @@
+        #myModal {
+  width: 500px; height: 420px;
+  padding: 18px 9px;
+  border-radius: 4px;
+  background: #fafafa;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+}
+
+        #myModalLogin {
+  width: 500px; height: 240px;
+  padding: 18px 9px;
+  border-radius: 4px;
+  background: #fafafa;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  display: none;
+  opacity: 0;
+  z-index: 38;
+  text-align: center;
+}
+
+#myModal #myModal__close {
+  width: 21px; height: 21px;
+  position: absolute;
+  font-size: 29px;
+  top: 1px; right: 11px;
+  cursor: pointer;
+  display: block;
+}
+#myModalLogin #myModalLogin__close {
+  width: 21px; height: 21px;
+  position: absolute;
+  font-size: 29px;
+  top: 1px; right: 11px;
+  cursor: pointer;
+  display: block;
+}
+
+
+#myOverlay {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+
+#myOverlayLogin {
+  z-index: 37;
+  position: fixed;
+  background: rgba(0,0,0,.7);
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  cursor: pointer;
+  display: none;
+}

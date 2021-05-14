@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f3a5c86-6279-498c-8a3f-fa6f746b653f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/chat/forms.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chat/views.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1qnc7ubhTU4pVcsURxg0qmY9nba" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Django\djangoChat" />
+      <recent name="C:\Django\djangoChat\djangoChat\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoChat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f3a5c86-6279-498c-8a3f-fa6f746b653f" name="Default Changelist" comment="" />
+      <created>1617718630686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617718630686</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="196" key="FileChooserDialogImpl" timestamp="1620931917093">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="196" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1620931917093" />
+    <state x="580" y="205" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1619293395452" />
+    <state width="1579" height="291" key="GridCell.Tab.0.bottom" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.0.center" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.0.left" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.0.right" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.1.bottom" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.1.center" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.1.left" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state width="1579" height="291" key="GridCell.Tab.1.right" timestamp="1617827100326">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1579" height="291" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1617827100326" />
+    <state x="362" y="179" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1617825182456">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="362" y="179" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.900@0.0.1600.900" timestamp="1617825182456" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1619983065963">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1619983065963" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

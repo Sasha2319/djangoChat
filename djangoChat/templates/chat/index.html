@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+
+
+{% block content %}
+<h1>Hello{% if userBool %}, {% endif %}{{username}}</h1>
+ <h1>Ваш ip: {{ip}}</h1>
+
+<button id="chats" class="btn btn-primary">Chats</button>
+
+
+<script>
+        $("#chats").click(function(){
+        location.href = `//${location.host}/chats/`
+    })
+</script>
+
+{% if userBool %}
+<script>
+    $("#login").html(`<div class="btn-group" style="margin-right:20px">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria="true" aria-expanded="false">
+    Hello, {{username}}!
+  </button>
+  <div class="dropdown-menu dropdown-menu-right">
+    <button id="ddChatsButton" class="dropdown-item" type="button">your chats</button>
+    <button id="ddPasswordButton" class="dropdown-item" type="button">change password</button>
+    <button id="ddLogOutButton" class="dropdown-item" type="button">Log out</button>
+  </div>
+</div>`)
+
+    $("#ddChatsButton").click(function(){
+        location.href = '/chats/'
+    })
+
+    $("#ddPasswordButton").click(function(){
+        location.href = '/changePassword/'
+    })
+
+    $("#ddLogOutButton").click(function(){
+        location.href = '/logout/'
+    })
+
+</script>
+{% endif %}
+
+{% if restart %}
+<script>
+    location.href = location.href
+</script>
+{% endif %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
